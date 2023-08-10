@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  <title>Haven-Online SuperMarket</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/homepage/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="script" href="script.js">
+</head>
+
+<body>
+  <!--- header  area--->
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img class="im" src="images/homepage/logo1.png" width="120px" height="60px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="#products">Product</a></li>
+            <li><a href="#footer">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <!---<li><a href="">Account</a></li>--->
+          </ul>
+        </nav>
+        <a href="cart.html"><img src="images/homepage/cart.png" alt="cart-img" width="50px" height="50px"></a>
+        <img src="images/homepage/menu.png" alt="menu-img" width="20px" height="30px" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Shopping made simple</h1>
+          <h3>amazing offers and deals <br /> wide variety of produts</h3><br />
+          <a href="#" class="btn">Shop Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="images/homepage/image1.png" alt="img1">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--- featured categories--->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <a href="grocery.html"><img src="images/homepage/category-1.png" alt="img_cat_1"> <br> <h3>Groceries</h3>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="fruit-vegetable.html"><img src="images/homepage/category-2.png" alt="img_cat_2"><br> <h3>Fruits & Vegetables</h3></a>
+        </div>
+        <div class="col-3">
+          <a href="dairy.html"><img src="images/homepage/category-3.png" alt="img_cat_3"><br> <h3>Dairy</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--- featured products--->
+  <div class="produts" id="products">
+    <div class="small-conatiner">
+      <h1 class="title">Featured Products</h1>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/homepage/product-1.jpg" alt="product1">
+          <h4>Sauce & Mustard Combo</h4>
+          <p>$34.00
+          </p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+
+        </div>
+        <div class="col-4">
+          <img src="images/homepage/product-2.jpg" alt="product2" height="80%">
+          <h4>Pasta</h4>
+          <p>$34.00</p>
+          <div class="rating">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/homepage/product-3.png" alt="product2">
+          <h4>Sneakers</h4>
+          <p>$34.00</p>
+          <div class="rating">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/homepage/product-4.jpg" alt="product4">
+          <h4>Pads</h4>
+          <p>$34.00</p>
+          <div class="rating">
+            <i class="fa fa-star checked"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!---Latest Products--->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/homepage/product-12.jpg" alt="product1">
+        <h4>Strawberry</h4>
+        <p>$34.00
+        </p>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-11.jpg" alt="product2">
+        <h4>Bread</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-10.jpg" alt="product2">
+        <h4>Frozen Peas</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-9.jpg" alt="product4">
+        <h4>Peanuts</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/homepage/product-5.jpg" alt="product1">
+        <h4>Eggs(24 pc)</h4>
+        <p>$34.00
+        </p>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-6.png" alt="product2" height="400px">
+        <h4>BBQ Sauce</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-7.jpg" alt="product2">
+        <h4>Crisps</h4>
+        <p>$3.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-8.jpg" alt="product4">
+        <h4>Olives</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--- offer--->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img class="offer-img " src="images/homepage/exclusive.png" alt="">
+        </div>
+        <div class="col-2">
+          <p  class="exclu">Exclusively availabe at Haven.</p>
+          <h1>Dinner Set</h1>
+          <small>10pc Dinner Set-Plates-Bowls-<br>Glasses-Straws and more.</small><br><br>
+          <a href="product-detail.html" class="btn">Buy Now &#8594;</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--- testimonial--->
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <p>heloo col3</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <img src="images/homepage/user-1.png" alt="user1">
+          <h3>User 1</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <p>heloo col3</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <img src="images/homepage/user-2.png" alt="user1">
+          <h3>User 2</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <p>heloo col3</p>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+          <img src="images/homepage/user-3.png" alt="user1">
+          <h3>User 3</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--- brands--->
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+        <a href="https://www.coca-cola.com/in/en"> <img src="images/homepage/logo-coca-cola.png" alt="coca-cola-logo"></a>
+        </div>
+        <div class="col-5">
+        <a href="https://www.oppo.com/in/"><img src="images/homepage/logo-oppo.png" alt="oppo-logo"></a>
+        </div>
+        <div class="col-5">
+        <a href="https://www.godrej.com/"><img src="images/homepage/logo-godrej.png" alt="godrej-logo"></a>
+        </div>
+        <div class="col-5">
+        <a href="https://www.paypal.com/in/home"><img src="images/homepage/logo-paypal.png" alt="paypal-logo"></a>
+        </div>
+        <div class="col-5">
+        <a href="https://www.philips.co.in/"> <img src="images/homepage/logo-philips.png" alt="philips-logo"></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--- <footer>--->
+  <div class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download App</h3>
+          <p>
+            download from play store and app store.
+          </p>
+          <div class="app-logo">
+            <a href="https://play.google.com/"><img src="images/homepage/play-store.png" alt="playstore"></a>
+            <a href="https://www.apple.com/in/app-store/"><img src="images/homepage/app-store.png" alt="appstore"></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <a href="index.html"><img src="images/homepage/logo1.png"></a>
+          <p>bringing shopping at your fingertips</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links:</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us:</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+
+          </ul>
+        </div>
+      </div>
+      <hr />
+
+    </div>
+
+  </div>
+  <!--- js for toggle menu----->
+  <script type="text/javascript">
+
+  </script>
+</body>
+
+</html>

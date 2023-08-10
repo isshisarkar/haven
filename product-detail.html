@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  <title>Haven-Online SuperMarket||Produts</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/homepage/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!--- header  area--->
+
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img class="im" src="images/homepage/logo1.png" width="120px" height="60px" /></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="images/homepage/cart.png" alt="cart-img" width="50px" height="50px"></a>
+      <img src="images/homepage/menu.png" alt="menu-img" width="20px" height="30px" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+  </div>
+
+  <!--- single product details--->
+  <div class="small-container single-product">
+    <div class="row">
+      <div class="col-2">
+        <img src="images\homepage\exclusive.png" width="100%" alt="" id="ProductImg">
+        <div class="small-img-row">
+          <div class="small-img-col">
+            <img src="images\homepage\exclusive.png" alt="" width="100" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/Product-detail/small-img1.jpg" alt="" width="100" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/Product-detail/small-img2.jpg" alt="" width="100" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/Product-detail/small-img3.jpg" alt="" width="100" class="small-img">
+          </div>
+        </div>
+
+      </div>
+      <div class="col-2">
+        <p>Home / Product</p>
+        <h1>Dinner Set</h1>
+        <h4>$56.90</h4>
+        <!---<select class="" name="">
+          <option value="">Select Size</option>
+          <option value="">S</option>
+          <option value="">M</option>
+          <option value="">L</option>
+          <option value="">XXL</option>
+        </select>--->
+        <input type="number" name="quantity" value="1">
+        <a href="#" class="btn">Add to Cart</a><br>
+        <br>
+        <h3> Dinner Set<!--- <i class="fa fa-indent"></i>---></h3>
+        <br>
+        <p>10-pc Dinner Set. <br>Contains :<br> 10 Big Plates;<br> 10 Small Plates;<br>10 Big Bowls;<br> 10 small Bowls;<br>10 Glasses and Straws.<br>Made of recyclabe material.<br>
+        Economical and Good for the Environment.  </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="small-conatiner ">
+    <div class="row row-2">
+      <h2>Related Products</h2>
+      <p><a href="#">View More</a></p>
+
+
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/homepage/product-1.jpg" alt="product1">
+        <h4>Tomato Sauce & Mustard </h4>
+        <p>$34.00
+        </p>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-2.jpg" alt="product2" height="80%">
+        <h4>Pasta</h4>
+        <p>$34.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-3.png" alt="product2">
+        <h4>Sneakers</h4>
+        <p>$3.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="images/homepage/product-4.jpg" alt="product4">
+        <h4>Pads</h4>
+        <p>$4.00</p>
+        <div class="rating">
+          <i class="fa fa-star checked"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--- <footer>--->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download App</h3>
+          <p>
+            download from play store and app store.
+          </p>
+          <div class="app-logo">
+            <a href="https://play.google.com/"><img src="images/homepage/play-store.png" alt="playstore"></a>
+            <a href="https://www.apple.com/in/app-store/"><img src="images/homepage/app-store.png" alt="appstore"></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/homepage/logo1.png">
+          <p>bringing shopping at your fingertips</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links:</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Retuen Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us:</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+
+          </ul>
+        </div>
+      </div>
+      <hr />
+
+    </div>
+
+  </div>
+  <!--- js for toggle menu----->
+  <script type="text/javascript">
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+  <!---js for product gallery>--->
+  <script type="text/javascript">
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementByClassName("small-img");
+    SmallImg[0].onclick = function() {
+      ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function() {
+      ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function() {
+      ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function() {
+      ProductImg.src = SmallImg[3].src;
+    }
+  </script>
+</body>
+
+</html>
